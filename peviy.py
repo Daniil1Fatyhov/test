@@ -55,7 +55,7 @@ def game():
     for dragon in dragons:
         #mooving dragon to left, to est to khinght
         dragon.x -= dragon.v
-        #otobrajaem dragon more left
+        #otobrajaem dragon more lef
         canvas.create_image(dragon.x, dragon.y, image=dragon.photo)
         #if knight stolknulsiy s dragon
         if ((knight.x -dragon.x)**2+(knight.y-dragon.y)**2)<=96**2:
